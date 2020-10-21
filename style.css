@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    background-color: darkred;
+}
+header {
+    background-color: dimgray;
+    padding: 1rem;
+
+}
+.logo {
+    width: 700px;
+    height: 300px;
+}
+.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner {
+    background-image: url(http://rovimusic.rovicorp.com/image.jpg?c=SL1MEik3HQ_vpSZVTaS4ZUvATnnolXsY-Jb5mPag5gI=&f=6);
+    background-size: cover;
+    background-position: top center;
+    min-height: 300px;
+}
+.banner h3{
+    color: ghostwhite;
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-shadow: black;
+    text-align: center;
+}
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+p {
+    margin-top: 1rem;
+    margin-bottom:1rem;
+
+}
+.about {
+    color: whitesmoke;
+    font-size: 2rem;
+}
+.group-photo {
+    width: 560px;
+    height: 315px;
+    float: left;
+    margin-right: 1.5rem;
+    border: 10px yellow;
+}
+.music-video {
+    background-color: royalblue;
+}
+.the-video {
+    float: right;
+    widows: 500px;
+    height: 315px;
+}
+.clr {
+    clear: both;
+    width:100% ;
+}
